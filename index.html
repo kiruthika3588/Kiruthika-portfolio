@@ -1,0 +1,898 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Kiruthika S - Aspiring Software Engineer | B.Tech Information Technology at Nandha Engineering College (2025-2029). Portfolio featuring full-stack engineering, algorithms, and research.">
+  <meta name="keywords" content="Kiruthika S, Software Engineer, Portfolio, Nandha Engineering College, B.Tech IT, Java, Python, C Programming, Web Development">
+  <meta name="author" content="Kiruthika S">
+  <title>Kiruthika S | Aspiring Software Engineer</title>
+
+  <!-- Google Fonts & Font Awesome Icons -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+  
+  <!-- Master Stylesheet -->
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <!-- ==========================================================================
+       NAVIGATION BAR
+       ========================================================================== -->
+  <header class="navbar" id="navbar">
+    <div class="nav-container">
+      <a href="#home" class="nav-logo" aria-label="Kiruthika S Home">
+        <div class="logo-symbol">K</div>
+        <div class="logo-text">KIRUTHIKA<span>.S</span></div>
+      </a>
+
+      <!-- Desktop Navigation Menu -->
+      <nav>
+        <ul class="nav-menu" id="navMenu">
+          <li><a href="#home" class="nav-link active">Home</a></li>
+          <li><a href="#about" class="nav-link">About</a></li>
+          <li><a href="#education" class="nav-link">Education</a></li>
+          <li><a href="#skills" class="nav-link">Skills</a></li>
+          <li><a href="#projects" class="nav-link">Projects</a></li>
+          <li><a href="#certifications" class="nav-link">Certifications</a></li>
+          <li><a href="#achievements" class="nav-link">Achievements</a></li>
+          <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <div class="nav-actions">
+        <a href="#contact" class="nav-cta">Get In Touch</a>
+        <button class="nav-toggle" id="navToggle" aria-label="Toggle Navigation Menu">
+          <i class="fa-solid fa-bars"></i>
+        </button>
+      </div>
+    </div>
+  </header>
+
+  <!-- ==========================================================================
+       HERO SECTION
+       ========================================================================== -->
+  <section class="hero-section" id="home">
+    <div class="hero-glow-1"></div>
+    <div class="hero-glow-2"></div>
+    <div class="container">
+      <div class="hero-grid">
+        
+        <!-- Left Content Column -->
+        <div class="hero-content">
+          <div class="hero-greeting">
+            <span>Hello, I'm</span>
+          </div>
+          <h1 class="hero-name">KIRUTHIKA S</h1>
+          
+          <div class="hero-role-wrapper">
+            <span class="hero-role-prefix">I'm <span id="dynamicArticle">an</span></span>
+            <div class="hero-role-container">
+              <span class="hero-role text-gold-gradient" id="typedRole">Aspiring Software Engineer</span><span class="typing-cursor" aria-hidden="true"></span>
+            </div>
+            <span class="badge badge-gold">B.Tech IT (2025–2029)</span>
+          </div>
+
+          <p class="hero-desc">
+            An Information Technology undergraduate at Nandha Engineering College with a strong passion for software development, data structures, and building robust, real-world digital applications. Driven by curiosity, structured problem-solving, and continuous learning.
+          </p>
+
+          <div class="hero-buttons">
+            <a href="#projects" class="btn btn-primary">
+              <i class="fa-solid fa-layer-group"></i> View My Projects
+            </a>
+            <a href="https://leetcode.com/u/kiruthika_1118/" target="_blank" rel="noopener noreferrer" class="btn btn-secondary">
+              <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor" style="display:inline-block; vertical-align:middle; margin-right:4px;">
+                <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+              </svg>
+              View LeetCode Profile
+            </a>
+            <a href="#resumeModal" id="openResumeModal" class="btn btn-outline">
+              <i class="fa-solid fa-file-invoice"></i> View Resume
+            </a>
+            <a href="#contact" class="btn btn-outline">
+              <i class="fa-solid fa-paper-plane"></i> Contact Me
+            </a>
+          </div>
+
+          <div class="hero-socials">
+            <span class="hero-social-label">Connect:</span>
+            <div class="social-links">
+              <a href="https://leetcode.com/u/kiruthika_1118/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LeetCode Profile" title="LeetCode Profile">
+                <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+                  <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+                </svg>
+              </a>
+              <a href="https://github.com/kiruthika3588" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile" title="GitHub Profile">
+                <i class="fa-brands fa-github"></i>
+              </a>
+              <a href="https://linkedin.com/in/kiruthika-s-0905373a9" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile" title="LinkedIn Profile">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right Profile Image Frame -->
+        <div class="hero-media">
+          <div class="profile-frame-wrapper">
+            <div class="profile-frame-glow"></div>
+            <div class="profile-frame">
+              <div class="profile-img-inner">
+                <img src="images/Kiruthika.png" alt="Kiruthika S - Aspiring Software Engineer" class="profile-img">
+              </div>
+            </div>
+            
+            <!-- Floating Status Badge -->
+            <div class="profile-floating-badge">
+              <div class="floating-badge-icon">
+                <i class="fa-solid fa-code"></i>
+              </div>
+              <div class="floating-badge-text">
+                <h4>Software Engineering Track</h4>
+                <p>Nandha Engineering College • Erode</p>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ABOUT ME SECTION
+       ========================================================================== -->
+  <section id="about" class="about-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Biography</span>
+        <h2 class="section-title">About Me</h2>
+        <p class="section-subtitle">A glimpse into my academic background, programming philosophy, and engineering vision.</p>
+        <div class="gold-divider"></div>
+      </div>
+
+      <div class="about-grid">
+        <!-- Main Bio Card -->
+        <div class="about-card-main">
+          <h3 class="about-lead">
+            "Committed to building scalable software systems and turning algorithmic logic into intuitive user experiences."
+          </h3>
+          <div class="about-paragraphs">
+            <p>
+              I am currently pursuing my <strong>B.Tech in Information Technology</strong> at <strong>Nandha Engineering College, Erode</strong> (Class of 2025–2029). My interest in computing started with the desire to understand how logic translates into systems that millions use every day.
+            </p>
+            <p>
+              My programming journey began with mastering procedural logic in <strong>C</strong> and object-oriented architecture in <strong>Java</strong>, subsequently expanding into <strong>Python</strong> for algorithmic flexibility and modern web technologies (HTML, CSS, JavaScript).
+            </p>
+            <p>
+              I firmly believe that real-world engineering is about solving genuine human friction. Whether engineering a <em>Dynamic Queue Management System</em> to eliminate physical waiting lines or architecting <em>CampusSphere</em> for institutional governance, I thrive on translating abstract requirements into structured, clean, and maintainable software.
+            </p>
+          </div>
+        </div>
+
+        <!-- Pillars Grid -->
+        <div class="about-highlights">
+          <div class="highlight-box">
+            <div class="highlight-icon">
+              <i class="fa-solid fa-brain"></i>
+            </div>
+            <h4 class="highlight-title">Problem Solving</h4>
+            <p class="highlight-desc">Strong emphasis on foundational data structures, clear algorithms, and analytical debugging.</p>
+          </div>
+
+          <div class="highlight-box">
+            <div class="highlight-icon">
+              <i class="fa-solid fa-laptop-code"></i>
+            </div>
+            <h4 class="highlight-title">Clean Software Design</h4>
+            <p class="highlight-desc">Writing modular, readable code that scales seamlessly across frontend and backend boundaries.</p>
+          </div>
+
+          <div class="highlight-box">
+            <div class="highlight-icon">
+              <i class="fa-solid fa-arrows-rotate"></i>
+            </div>
+            <h4 class="highlight-title">Continuous Learning</h4>
+            <p class="highlight-desc">Constantly expanding skills through NPTEL courses, competitive coding, and data analytics tools.</p>
+          </div>
+
+          <div class="highlight-box">
+            <div class="highlight-icon">
+              <i class="fa-solid fa-bullseye"></i>
+            </div>
+            <h4 class="highlight-title">Career Aspiration</h4>
+            <p class="highlight-desc">Aspiring to step into forward-thinking engineering organizations as a high-impact Software Engineer.</p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       EDUCATION & ACADEMIC PERFORMANCE SECTION
+       ========================================================================== -->
+  <section id="education" class="education-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Academic Journey</span>
+        <h2 class="section-title">Education &amp; Academic Performance</h2>
+        <p class="section-subtitle">Academic foundations, verified scores, and continuous learning trajectory.</p>
+        <div class="gold-divider"></div>
+      </div>
+
+      <div class="education-timeline">
+
+        <!-- Timeline Item 1: B.Tech College -->
+        <div class="timeline-item">
+          <div class="timeline-dot">
+            <i class="fa-solid fa-graduation-cap"></i>
+          </div>
+          <div class="timeline-content edu-card">
+            <div class="edu-header">
+              <div>
+                <span class="badge badge-gold" style="margin-bottom: 8px;">Undergraduate Degree</span>
+                <h3 class="edu-degree">B.Tech – Information Technology</h3>
+                <div class="edu-institution">
+                  <i class="fa-solid fa-building-columns"></i>
+                  <span>Nandha Engineering College, Erode</span>
+                </div>
+              </div>
+              <div class="edu-period-badge">
+                <i class="fa-regular fa-calendar-days"></i> 2025 – 2029
+              </div>
+            </div>
+
+            <div class="edu-body">
+              <p>
+                Engaged in undergraduate study covering core principles of computer systems, software architecture, algorithm design, and modern database management. Actively participating in technical symposiums, research presentations, and hands-on laboratory implementations.
+              </p>
+              
+              <div class="edu-focus-grid">
+                <div class="edu-focus-item">
+                  <i class="fa-solid fa-check-circle"></i>
+                  <span>Data Structures &amp; Algorithms</span>
+                </div>
+                <div class="edu-focus-item">
+                  <i class="fa-solid fa-check-circle"></i>
+                  <span>Object-Oriented Programming (Java)</span>
+                </div>
+                <div class="edu-focus-item">
+                  <i class="fa-solid fa-check-circle"></i>
+                  <span>Relational Database Management</span>
+                </div>
+                <div class="edu-focus-item">
+                  <i class="fa-solid fa-check-circle"></i>
+                  <span>Web Architecture &amp; UI Design</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 2: Higher Secondary (12th Standard) -->
+        <div class="timeline-item">
+          <div class="timeline-dot">
+            <i class="fa-solid fa-school"></i>
+          </div>
+          <div class="timeline-content edu-card">
+            <div class="edu-header">
+              <div>
+                <span class="badge badge-blue" style="margin-bottom: 8px;">Higher Secondary (12th Standard)</span>
+                <h3 class="edu-degree">Higher Secondary Certificate (HSC)</h3>
+                <div class="edu-institution">
+                  <i class="fa-solid fa-school"></i>
+                  <span>Kamaraj Higher Secondary School, Nambiyur</span>
+                </div>
+              </div>
+              <div class="edu-score-badge">
+                <div class="score-main">80%</div>
+                <div class="score-sub">480 / 600 Marks</div>
+              </div>
+            </div>
+
+            <div class="edu-body">
+              <p>
+                Completed Higher Secondary education with distinction, establishing strong foundations in Mathematics, Science, and computational problem-solving.
+              </p>
+
+              <!-- Score Highlight Metric Bar -->
+              <div class="academic-metric-box">
+                <div class="metric-row">
+                  <div class="metric-info">
+                    <span class="metric-label">Total Marks Secured</span>
+                    <strong class="metric-val" style="color:var(--text-cream);">480 <span class="metric-max">/ 600</span></strong>
+                  </div>
+                  <div class="metric-info text-right">
+                    <span class="metric-label">Overall Percentage</span>
+                    <strong class="metric-val text-gold">80.0%</strong>
+                  </div>
+                </div>
+                <div class="score-progress-track">
+                  <div class="score-progress-fill" style="width: 80%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Timeline Item 3: SSLC (10th Standard) -->
+        <div class="timeline-item">
+          <div class="timeline-dot">
+            <i class="fa-solid fa-book-open"></i>
+          </div>
+          <div class="timeline-content edu-card">
+            <div class="edu-header">
+              <div>
+                <span class="badge badge-green" style="margin-bottom: 8px;">Secondary School (10th Standard)</span>
+                <h3 class="edu-degree">Secondary School Leaving Certificate (SSLC)</h3>
+                <div class="edu-institution">
+                  <i class="fa-solid fa-school"></i>
+                  <span>Kamaraj Higher Secondary School, Nambiyur</span>
+                </div>
+              </div>
+              <div class="edu-score-badge">
+                <div class="score-main text-emerald">85.2%</div>
+                <div class="score-sub">426 / 500 Marks</div>
+              </div>
+            </div>
+
+            <div class="edu-body">
+              <p>
+                Graduated with superior academic standing, demonstrating consistent academic discipline and quantitative reasoning.
+              </p>
+
+              <!-- Score Highlight Metric Bar -->
+              <div class="academic-metric-box">
+                <div class="metric-row">
+                  <div class="metric-info">
+                    <span class="metric-label">Total Marks Secured</span>
+                    <strong class="metric-val" style="color:var(--text-cream);">426 <span class="metric-max">/ 500</span></strong>
+                  </div>
+                  <div class="metric-info text-right">
+                    <span class="metric-label">Overall Percentage</span>
+                    <strong class="metric-val" style="color:#4ADE80;">85.2%</strong>
+                  </div>
+                </div>
+                <div class="score-progress-track">
+                  <div class="score-progress-fill emerald" style="width: 85.2%;"></div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       TECHNICAL SKILLS SECTION
+       ========================================================================== -->
+  <section id="skills" class="skills-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Technical Competencies</span>
+        <h2 class="section-title">Technical Skills</h2>
+        <p class="section-subtitle">Core programming languages, data analytics tools, and web development technologies.</p>
+        <div class="gold-divider"></div>
+      </div>
+
+      <div class="skills-grid">
+        
+        <!-- Category 1: Programming Languages -->
+        <div class="skill-category-card">
+          <div class="skill-category-header">
+            <div class="skill-cat-icon">
+              <i class="fa-solid fa-code"></i>
+            </div>
+            <h3 class="skill-cat-title">Programming</h3>
+          </div>
+
+          <div class="skill-items-list">
+            <div class="skill-card">
+              <div class="skill-info">
+                <div class="skill-icon-wrapper java">
+                  <i class="fa-brands fa-java"></i>
+                </div>
+                <span class="skill-name">Java</span>
+              </div>
+              <span class="skill-tag">OOP &amp; Core</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-info">
+                <div class="skill-icon-wrapper c">
+                  <i class="fa-solid fa-c"></i>
+                </div>
+                <span class="skill-name">C Programming</span>
+              </div>
+              <span class="skill-tag">Algorithms</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-info">
+                <div class="skill-icon-wrapper python">
+                  <i class="fa-brands fa-python"></i>
+                </div>
+                <span class="skill-name">Python</span>
+              </div>
+              <span class="skill-tag">Scripting &amp; Data</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 2: Tools & Data Analytics -->
+        <div class="skill-category-card">
+          <div class="skill-category-header">
+            <div class="skill-cat-icon">
+              <i class="fa-solid fa-chart-pie"></i>
+            </div>
+            <h3 class="skill-cat-title">Tools &amp; Analytics</h3>
+          </div>
+
+          <div class="skill-items-list">
+            <div class="skill-card">
+              <div class="skill-info">
+                <div class="skill-icon-wrapper powerbi">
+                  <i class="fa-solid fa-chart-simple"></i>
+                </div>
+                <span class="skill-name">Microsoft Power BI</span>
+              </div>
+              <span class="skill-tag">Dashboards</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-info">
+                <div class="skill-icon-wrapper excel">
+                  <i class="fa-solid fa-table"></i>
+                </div>
+                <span class="skill-name">Advanced Excel</span>
+              </div>
+              <span class="skill-tag">Formulas &amp; Pivot</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-info">
+                <div class="skill-icon-wrapper">
+                  <i class="fa-brands fa-git-alt" style="color:#F05032;"></i>
+                </div>
+                <span class="skill-name">Git &amp; GitHub</span>
+              </div>
+              <span class="skill-tag">Version Control</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Category 3: Web Technologies -->
+        <div class="skill-category-card">
+          <div class="skill-category-header">
+            <div class="skill-cat-icon">
+              <i class="fa-solid fa-globe"></i>
+            </div>
+            <h3 class="skill-cat-title">Web Technologies</h3>
+          </div>
+
+          <div class="skill-items-list">
+            <div class="skill-card">
+              <div class="skill-info">
+                <div class="skill-icon-wrapper html">
+                  <i class="fa-brands fa-html5"></i>
+                </div>
+                <span class="skill-name">HTML5</span>
+              </div>
+              <span class="skill-tag">Semantic Web</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-info">
+                <div class="skill-icon-wrapper css">
+                  <i class="fa-brands fa-css3-alt"></i>
+                </div>
+                <span class="skill-name">CSS3</span>
+              </div>
+              <span class="skill-tag">Responsive UI</span>
+            </div>
+
+            <div class="skill-card">
+              <div class="skill-info">
+                <div class="skill-icon-wrapper js">
+                  <i class="fa-brands fa-js"></i>
+                </div>
+                <span class="skill-name">JavaScript</span>
+              </div>
+              <span class="skill-tag learning">Currently Learning</span>
+            </div>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       PROJECTS SECTION
+       ========================================================================== -->
+  <section id="projects" class="projects-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Engineering Portfolio</span>
+        <h2 class="section-title">Featured Projects</h2>
+        <p class="section-subtitle">Deep dive into complete full-stack web applications, campus platforms, and bio-AI research.</p>
+        <div class="gold-divider"></div>
+      </div>
+
+      <div class="projects-grid">
+        
+        <!-- PROJECT 1: Dynamic Queue Management System -->
+        <div class="project-card">
+          <div class="project-thumb-container">
+            <img src="images/queue-preview.svg" alt="Dynamic Queue Management System Preview" class="project-thumb">
+            <span class="project-category-badge">Full-Stack Application</span>
+          </div>
+
+          <div class="project-content">
+            <h3 class="project-title">Dynamic Queue Management System</h3>
+            <p class="project-desc">
+              A real-time digital queue dispatcher featuring dynamic wait-time calculation, multi-desk counter resource balancing, 3-tier priority scheduling (VIP, Senior, Normal), and an automated voice/chime overhead TV display.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="tech-tag">JavaScript (ES6+)</span>
+              <span class="tech-tag">Node.js</span>
+              <span class="tech-tag">Express</span>
+              <span class="tech-tag">Web Audio API</span>
+            </div>
+
+            <a href="projects/dynamic-queue.html" class="project-btn">
+              <span>View Project Details</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 2: CampusSphere Platform -->
+        <div class="project-card">
+          <div class="project-thumb-container">
+            <img src="images/campussphere-preview.svg" alt="CampusSphere Digital Campus Platform" class="project-thumb">
+            <span class="project-category-badge">Institutional Web Platform</span>
+          </div>
+
+          <div class="project-content">
+            <h3 class="project-title">CampusSphere – Digital Campus Platform</h3>
+            <p class="project-desc">
+              A role-based digital campus ecosystem unifying student academic progress, batch attendance roll call, assignment grading, institutional document vault with strict RBAC privacy, and a lively campus social feed.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="tech-tag">React 18</span>
+              <span class="tech-tag">Node.js / Express</span>
+              <span class="tech-tag">MongoDB</span>
+              <span class="tech-tag">RBAC Security</span>
+            </div>
+
+            <a href="projects/campus-sphere.html" class="project-btn">
+              <span>View Project Details</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+        <!-- PROJECT 3: AI-Powered Smart Bandage -->
+        <div class="project-card">
+          <div class="project-thumb-container">
+            <img src="images/smartbandage-preview.svg" alt="AI Smart Bandage Concept" class="project-thumb">
+            <span class="project-category-badge">Paper Presentation</span>
+          </div>
+
+          <div class="project-content">
+            <h3 class="project-title">AI-Powered Smart Bandage for Wound Healing</h3>
+            <p class="project-desc">
+              A healthcare IoT and Edge AI research concept presented at Hindustan Institute of Technology, featuring continuous multi-sensor bio-monitoring (pH, temperature, moisture) for early pre-symptomatic infection detection.
+            </p>
+
+            <div class="project-tech-tags">
+              <span class="tech-tag">Edge AI / TinyML</span>
+              <span class="tech-tag">Bio-Sensors</span>
+              <span class="tech-tag">IoT Healthcare</span>
+              <span class="tech-tag">BLE Telemetry</span>
+            </div>
+
+            <a href="projects/smart-bandage.html" class="project-btn">
+              <span>View Project Details</span>
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+          </div>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CERTIFICATIONS & LEARNING SECTION
+       ========================================================================== -->
+  <section id="certifications" class="cert-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Knowledge &amp; Credentials</span>
+        <h2 class="section-title">Certifications &amp; Learning</h2>
+        <p class="section-subtitle">Structured online coursework, analytical certifications, and programming milestones.</p>
+        <div class="gold-divider"></div>
+      </div>
+
+      <div class="cert-grid">
+        <!-- Cert 1: NPTEL -->
+        <div class="cert-card">
+          <div class="cert-card-icon">
+            <i class="fa-solid fa-award"></i>
+          </div>
+          <h3 class="cert-card-title">NPTEL Coursework</h3>
+          <div class="cert-card-provider">National Programme on Tech Learning</div>
+          <p class="cert-card-desc">
+            Rigorous online learning in computer science fundamentals, data structures, and algorithmic paradigms accredited by leading IIT faculty.
+          </p>
+          <span class="cert-status-badge verified">
+            <i class="fa-solid fa-circle-check"></i> Verified Course
+          </span>
+        </div>
+
+        <!-- Cert 2: Advanced Excel -->
+        <div class="cert-card">
+          <div class="cert-card-icon">
+            <i class="fa-solid fa-file-excel"></i>
+          </div>
+          <h3 class="cert-card-title">Advanced Excel</h3>
+          <div class="cert-card-provider">Data Analytics &amp; Productivity</div>
+          <p class="cert-card-desc">
+            Mastery of complex formula modeling, VLOOKUP/XLOOKUP, nested conditionals, dynamic pivot tables, and tabular data transformation.
+          </p>
+          <span class="cert-status-badge verified">
+            <i class="fa-solid fa-circle-check"></i> Verified Skill
+          </span>
+        </div>
+
+        <!-- Cert 3: Power BI -->
+        <div class="cert-card">
+          <div class="cert-card-icon">
+            <i class="fa-solid fa-chart-column"></i>
+          </div>
+          <h3 class="cert-card-title">Basics of Power BI</h3>
+          <div class="cert-card-provider">Microsoft Business Intelligence</div>
+          <p class="cert-card-desc">
+            Interactive visual dashboarding, data relationship modeling, KPI scorecard creation, and report generation for business insights.
+          </p>
+          <span class="cert-status-badge verified">
+            <i class="fa-solid fa-circle-check"></i> Completed Learning
+          </span>
+        </div>
+
+        <!-- Cert 4: C++ Learning -->
+        <div class="cert-card">
+          <div class="cert-card-icon">
+            <i class="fa-solid fa-microchip"></i>
+          </div>
+          <h3 class="cert-card-title">C++ Programming</h3>
+          <div class="cert-card-provider">OOP &amp; System Concepts</div>
+          <p class="cert-card-desc">
+            Developing proficiency in object-oriented C++, memory management, standard template library (STL), and competitive coding logic.
+          </p>
+          <span class="cert-status-badge learning">
+            <i class="fa-solid fa-spinner"></i> In Progress
+          </span>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       ACHIEVEMENTS SECTION
+       ========================================================================== -->
+  <section id="achievements" class="achievements-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Recognition</span>
+        <h2 class="section-title">Key Achievements</h2>
+        <p class="section-subtitle">Academic milestones, technical symposium presentations, and research accolades.</p>
+        <div class="gold-divider"></div>
+      </div>
+
+      <div class="achievement-showcase">
+        <div class="achievement-card">
+          <div class="achievement-medal">
+            <i class="fa-solid fa-trophy"></i>
+            <span>HONOR</span>
+          </div>
+
+          <div class="achievement-content">
+            <span class="achievement-tag">
+              <i class="fa-solid fa-certificate"></i> Academic Paper Presentation
+            </span>
+            <h3 class="achievement-title">
+              AI-Powered Smart Bandage for Wound Healing
+            </h3>
+            <div class="achievement-venue">
+              <i class="fa-solid fa-location-dot"></i>
+              <span>Hindustan Institute of Technology</span>
+            </div>
+            <p class="achievement-desc">
+              Authored and presented a technical research paper exploring the bio-cybernetic design of smart bandages. Highlighted in-situ micro-sensor arrays (pH, temperature, impedance), localized edge inference via TinyML on ARM Cortex MCUs, and automated transdermal drug delivery for diabetic ulcer patients.
+            </p>
+          </div>
+        </div>
+      </div>
+
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       CONTACT SECTION
+       ========================================================================== -->
+  <section id="contact" class="contact-section">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">Let's Connect</span>
+        <h2 class="section-title">Contact Me</h2>
+        <p class="section-subtitle">Have a question, opportunity, or interested in collaborating? I'd love to hear from you.</p>
+        <div class="gold-divider"></div>
+      </div>
+
+      <div class="contact-grid">
+        
+        <!-- Contact Information Side -->
+        <div class="contact-info-card">
+          <div class="contact-info-header">
+            <h3>Get in Touch</h3>
+            <p>
+              Feel free to reach out for software engineering internships, academic projects, or collaborative opportunities.
+            </p>
+          </div>
+
+          <div class="contact-channels">
+            <a href="https://leetcode.com/u/kiruthika_1118/" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <div class="contact-icon">
+                <svg viewBox="0 0 24 24" width="20" height="20" fill="currentColor">
+                  <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+                </svg>
+              </div>
+              <div>
+                <div class="contact-label">LeetCode Profile</div>
+                <div class="contact-value">leetcode.com/u/kiruthika_1118/</div>
+              </div>
+            </a>
+
+            <a href="https://linkedin.com/in/kiruthika-s-0905373a9" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-brands fa-linkedin-in"></i>
+              </div>
+              <div>
+                <div class="contact-label">LinkedIn Profile</div>
+                <div class="contact-value">linkedin.com/in/kiruthika-s-0905373a9</div>
+              </div>
+            </a>
+
+            <a href="https://github.com/kiruthika3588" target="_blank" rel="noopener noreferrer" class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-brands fa-github"></i>
+              </div>
+              <div>
+                <div class="contact-label">GitHub Repository</div>
+                <div class="contact-value">github.com/kiruthika3588</div>
+              </div>
+            </a>
+
+            <div class="contact-item">
+              <div class="contact-icon">
+                <i class="fa-solid fa-school"></i>
+              </div>
+              <div>
+                <div class="contact-label">Institution</div>
+                <div class="contact-value">Nandha Engineering College, Erode, TN</div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <!-- Contact Form Side -->
+        <div class="contact-form-card">
+          <form id="contactForm" class="contact-form">
+            <div class="form-group">
+              <label for="userName" class="form-label">Your Name *</label>
+              <input type="text" id="userName" class="form-input" placeholder="e.g. Anand Kumar" required>
+            </div>
+
+            <div class="form-group">
+              <label for="userEmail" class="form-label">Your Email *</label>
+              <input type="email" id="userEmail" class="form-input" placeholder="e.g. anand@example.com" required>
+            </div>
+
+            <div class="form-group">
+              <label for="userSubject" class="form-label">Subject</label>
+              <input type="text" id="userSubject" class="form-input" placeholder="e.g. Internship Inquiry / Project Discussion">
+            </div>
+
+            <div class="form-group">
+              <label for="userMessage" class="form-label">Message *</label>
+              <textarea id="userMessage" class="form-textarea" placeholder="Write your message here..." required></textarea>
+              <span class="form-hint">Direct submissions will compose an email to Kiruthika S or launch your default mail client.</span>
+            </div>
+
+            <div id="formStatus" class="form-status"></div>
+
+            <button type="submit" class="btn btn-primary" style="width: 100%;">
+              <i class="fa-solid fa-paper-plane"></i> Send Direct Message
+            </button>
+          </form>
+        </div>
+
+      </div>
+    </div>
+  </section>
+
+  <!-- ==========================================================================
+       RESUME MODAL
+       ========================================================================== -->
+  <div class="resume-modal" id="resumeModal">
+    <div class="resume-modal-box">
+      <div class="resume-modal-header">
+        <h3 style="font-family: var(--font-serif); color: var(--gold-light);">Kiruthika S • Resume Document</h3>
+        <button id="closeResumeModal" class="lightbox-close" style="position: static;" aria-label="Close Resume Modal">
+          <i class="fa-solid fa-xmark"></i>
+        </button>
+      </div>
+      <div class="resume-modal-body">
+        <img src="images/KIRUTHIKA-Resume.png" alt="Kiruthika S Official Resume Preview">
+      </div>
+    </div>
+  </div>
+
+  <!-- ==========================================================================
+       FOOTER
+       ========================================================================== -->
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <div class="footer-name">KIRUTHIKA S</div>
+          <div class="footer-title">Aspiring Software Engineer • B.Tech IT (2025–2029)</div>
+        </div>
+
+        <div class="footer-links">
+          <a href="#home" class="footer-link">Home</a>
+          <a href="#about" class="footer-link">About</a>
+          <a href="#education" class="footer-link">Education</a>
+          <a href="#skills" class="footer-link">Skills</a>
+          <a href="#projects" class="footer-link">Projects</a>
+          <a href="#contact" class="footer-link">Contact</a>
+        </div>
+
+        <div class="social-links">
+          <a href="https://leetcode.com/u/kiruthika_1118/" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LeetCode Profile" title="LeetCode Profile">
+            <svg viewBox="0 0 24 24" width="18" height="18" fill="currentColor">
+              <path d="M13.483 0a1.374 1.374 0 0 0-.961.438L7.116 6.226l-3.854 4.126a5.266 5.266 0 0 0-1.209 2.104 5.35 5.35 0 0 0-.125.513 5.527 5.527 0 0 0 .062 2.362 5.83 5.83 0 0 0 .349 1.017 5.938 5.938 0 0 0 1.271 1.818l4.277 4.193.039.038c2.248 2.165 5.852 2.133 8.063-.074l2.396-2.392c.54-.54.54-1.414.003-1.955a1.378 1.378 0 0 0-1.951-.003l-2.396 2.392a3.021 3.021 0 0 1-4.205.038l-.02-.019-4.276-4.193c-.652-.64-.972-1.469-.948-2.263a2.68 2.68 0 0 1 .066-.523 2.545 2.545 0 0 1 .619-1.164L9.13 8.114c1.058-1.134 3.204-1.27 4.43-.278l3.501 2.831c.593.48 1.461.387 1.94-.207a1.384 1.384 0 0 0-.207-1.943l-3.5-2.831c-.8-.647-1.766-1.045-2.774-1.202l2.015-2.158A1.384 1.384 0 0 0 13.483 0zm-2.866 12.815a1.38 1.38 0 0 0-1.38 1.382 1.38 1.38 0 0 0 1.38 1.382H20.79a1.38 1.38 0 0 0 1.38-1.382 1.38 1.38 0 0 0-1.38-1.382z"/>
+            </svg>
+          </a>
+          <a href="https://github.com/kiruthika3588" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="GitHub Profile" title="GitHub Profile">
+            <i class="fa-brands fa-github"></i>
+          </a>
+          <a href="https://linkedin.com/in/kiruthika-s-0905373a9" target="_blank" rel="noopener noreferrer" class="social-btn" aria-label="LinkedIn Profile" title="LinkedIn Profile">
+            <i class="fa-brands fa-linkedin-in"></i>
+          </a>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p>© <span class="dynamic-year">2026</span> Kiruthika S. All rights reserved.</p>
+        <p>Built with modern HTML5, CSS3 &amp; Vanilla JavaScript.</p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Master JavaScript Engine -->
+  <script src="script.js"></script>
+</body>
+</html>
